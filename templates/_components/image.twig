@@ -1,0 +1,12 @@
+{% if image| default %}
+{% do image.setTransform(transform|default('')) %}
+{{ tag('img', {
+    src: image.url,
+    alt: image.title,
+    width: image.width,
+    height: image.height
+
+})
+}}
+
+{% endif %}

@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: nft
+name: NFT
+propagationMethod: all
+siteSettings:
+  4501600c-afab-418b-b6a6-7f181a8b462b: # Hoffman
+    enabledByDefault: true
+    hasUrls: true
+    template: nft/_entry
+    uriFormat: 'nft/{slug}'
+type: channel

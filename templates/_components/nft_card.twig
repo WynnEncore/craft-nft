@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="img-header" style="background-image: url({{entry.nftImage.one().getUrl()}})"></div>
+
+    <div class="content">
+      <h2>
+        <a  class="nft-title" href="https://opensea.io/" target="_blank">
+        {{ entry.title }}
+        </a>
+      </h2>
+      <p class="nft-desc">{{ entry.description }}</p>
+      <div class="price-time">
+        <div class="price">
+          <img class="eth-icon" src="/assets/img/icon-ethereum.svg" alt="ethereum icon">
+          <p class="value">{{ entry.salesPrice }} ETH</p>
+        </div>
+        <div class="time-remaining">
+          <img class="clock-icon" src="/assets/img/icon-clock.svg" alt="clock icon">
+          <p class="time-left">{{ date(entry.salesEndDate|date).diff( now ).days }} days left</p>
+          <p>{{ entry.salesEndDate|date }} </p>
+        </div>
+      </div>
+    </div>
+    <footer class="creator">
+        {% if entry.author.photo %}
+            <img class="creator-img" src="{{ entry.author.photo.getUrl() }}" alt="{{ entry.author.friendlyName }}">
+        {% endif %}
+        <p class="creator-name">
+            Creation of <span>{{ entry.author.friendlyName }}</span>
+        </p>
+    </footer>
+    
+</div>
+

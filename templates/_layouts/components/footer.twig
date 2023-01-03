@@ -1,0 +1,41 @@
+{% set entries = craft
+    .navigation
+    .nodes('footerNavigation')
+    .all() %}
+
+<footer class="wb-footer" id="mastfoot" tabindex="-1">
+    <div class="container wb-footer__content">
+        {% include '_parts/components/site-link' with {
+            'class': 'wb-footer__site-link'
+        } %}
+        <nav class="wb-footer__nav">
+            <ul class="wb-footer__menu__list">
+                {% nav entry in entries %}
+                    <li class="wb-footer__menu level-{{entry.level - 1}} {% if entry.hasDescendants() %} wb-footer__menu--has-children{% endif %}">
+                        {% if entry.hasDescendants() and entry.url is empty %}
+                            <button class="wb-footer__menu__el sub-menu__trigger">{{ entry.title }}</button>
+                        {% elseif entry.hasDescendants() and entry.url is not empty %}
+                            <a class="wb-footer__menu__el sub-menu__trigger" href="{{ entry.url }}">{{ entry.title }}</a>
+                        {% else %}
+                            <a class="wb-footer__menu__el" href="{{ entry.url }}">{{ entry.title }}</a>
+                        {% endif %}
+                        {% ifchildren %}
+                            <ul class="sub-menu">{% children %}</ul>
+                        {% endifchildren %}
+                    </li>
+                {% endnav %}
+            </ul>
+        </nav>
+        <div class="wb-footer__socials-network">
+            {% include "_parts/components/socials-network" %}
+        </div>
+    </div>
+    <div class="container">
+        <div class="wb-footer__copy">
+            {% if globalWebsite.copyright is defined and globalWebsite.copyright is not empty %}
+                <p>{{globalWebsite.copyright | replace({'{year}': 'now' | date('Y') }) | raw}}</p>
+            {% endif %}
+        </div>
+    </div>
+    
+</footer>

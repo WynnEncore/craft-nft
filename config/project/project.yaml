@@ -1,0 +1,69 @@
+dateModified: 1672695899
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      defaultSort:
+        - expiryDate
+        - asc
+      disabled: false
+      key: 'section:954fbdf1-5b70-46d8-92e3-2017d987725d' # NFT
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - link
+        - 'field:44ff9df3-b421-4819-bb38-b54cd25c65c4' # Sales Price
+        - 'field:6071fff8-2b8f-481e-94c7-f89bff139e8f' # Sales End Date
+      type: native
+email:
+  fromEmail: sylvaintremblay1999@outlook.com
+  fromName: Hoffman
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  nfts:
+    hasUrls: true
+    name: nfts
+    settings:
+      path: '@webroot/craft-assets/nfts'
+    type: craft\fs\Local
+    url: '@web/craft-assets/nfts'
+  userImage:
+    hasUrls: true
+    name: 'User Image'
+    settings:
+      path: '@webroot/craft-assets/userimages'
+    type: craft\fs\Local
+    url: '@web/craft-assets/userimages'
+meta:
+  __names__:
+    0bcca012-bb37-4f62-a918-2aece6f0e9c2: Common # Common
+    1d47e28c-030d-4a1e-84fe-aca0cbf26112: 'NFT Image' # NFT Image
+    5eafcf51-f9db-4583-9a19-1fdb309694f7: 'Sales Start Date' # Sales Start Date
+    21bc1746-265f-439b-ae60-b19f978f3297: Default # Default
+    44ff9df3-b421-4819-bb38-b54cd25c65c4: 'Sales Price' # Sales Price
+    540bed18-5b7e-4ffe-9728-fc9e00196596: NFT # NFT
+    954fbdf1-5b70-46d8-92e3-2017d987725d: NFT # NFT
+    6071fff8-2b8f-481e-94c7-f89bff139e8f: 'Sales End Date' # Sales End Date
+    4501600c-afab-418b-b6a6-7f181a8b462b: Hoffman # Hoffman
+    c7dc945f-f527-4e61-b5ba-1dd07244f416: Description # Description
+    cb2d767e-dc74-4766-90c8-dbe0e9464a61: 'User Photo' # User Photo
+    dbb55cdc-4011-481a-baab-c8daef391081: Hoffman # Hoffman
+    de202251-41b3-44d2-85e7-75ada9a43c30: 'NFT Image' # NFT Image
+    ffe3dad6-d257-4611-abb2-8e975b25eeae: Medium # Medium
+system:
+  edition: solo
+  live: true
+  name: Hoffman
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: cb2d767e-dc74-4766-90c8-dbe0e9464a61 # User Photo
+  requireEmailVerification: true

@@ -1,0 +1,19 @@
+columnSuffix: fmfjuvsk
+contentColumnType: text
+fieldGroup: 540bed18-5b7e-4ffe-9728-fc9e00196596 # NFT
+handle: description
+instructions: null
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: 'Enter your description'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

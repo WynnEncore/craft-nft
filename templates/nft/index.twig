@@ -1,0 +1,9 @@
+{% set today = now|date('Y-m-d H:i') %}
+
+
+{% for entry in entries %}
+    {% if entry.salesEndDate >= today %}
+        {{ include('_components/nft_card')}}
+    {% endif %}
+{% endfor %}
+

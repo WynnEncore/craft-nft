@@ -1,0 +1,17 @@
+columnSuffix: ueeuyxvx
+contentColumnType: datetime
+fieldGroup: 540bed18-5b7e-4ffe-9728-fc9e00196596 # NFT
+handle: salesStartDate
+instructions: null
+name: 'Sales Start Date'
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: 30
+  showDate: true
+  showTime: true
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

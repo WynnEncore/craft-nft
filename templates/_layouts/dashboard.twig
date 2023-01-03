@@ -1,0 +1,29 @@
+{% set isConnectionRequired = isConnectionRequired is defined and isConnectionRequired == false ? false : true %}
+{% extends '_layouts/base' %}
+{% block body %}
+	{% if not craft.app.user.isGuest or isConnectionRequired == false %}
+		{% set currentUser = craft.app.user.identity %}
+		{% set wrapperClass = 'dashboard' %}
+
+		{% cache if not craft.app.config.general.devMode %}
+		{# Main Nav #}
+		{{ include('_layouts/components/header') }}
+		{% endcache %}
+
+		{# Main content #}
+		<main id="main" class="main" role="main">
+			{{include('_parts/components/account/account-sidebar')}}
+			<div class="{{wrapperClass}}">
+				{% block content %}{% endblock %}
+			</div>
+		</main>
+
+		{% cache if not craft.app.config.general.devMode %}
+		{# Footer #}
+		{{ include('_layouts/components/footer') }}
+		{% endcache %}
+	{% else %}
+		{% set registerUrl = 'register'|getUrl %}
+		{% redirect registerUrl %}
+	{% endif %}
+{% endblock %}

@@ -1,0 +1,43 @@
+fieldLayouts:
+  8928a002-d630-47bb-b0e2-2474eba0624c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 637cf3af-0727-4a39-b6ae-488bf602937b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ea8fc347-2ac0-4105-b0a1-cb66030bad16
+        userCondition: null
+fs: nfts
+handle: nftImage
+name: 'NFT Image'
+sortOrder: 1
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

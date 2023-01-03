@@ -1,0 +1,45 @@
+<header class="wb-header" id="masthead">
+  {% if globalWebsite.topBanner is defined and globalWebsite.topBanner is not empty %}
+    <div class="wb-header__container">
+        <div class="wb-header__text">{{ globalWebsite.topBanner.one().text }}</div>
+    </div>
+  {% endif %}
+  <div class="container">
+    <div class="row">
+      <div class="col-12 wb-header__wrapper">
+        <div class="wb-header__top">
+          <div class="wb-header__burger">
+            {{ include('_parts/components/burger') }}
+          </div>
+          {{ include('_parts/components/site-link', {
+            class: 'wb-header__site-link'
+          }) }}
+          <div class="wb-header__inner">
+            <div class="wb-header__nav wb-menu wb-menu--main">
+              {{ include('_layouts/components/nav') }}
+            </div>
+          </div>
+          <div class="wb-header__link-content">
+            {{ include('_parts/components/account-link', {
+              class: 'wb-header__account-link'
+            }) }}
+            <div class="wb-header__language-switcher">
+              {{ include('_layouts/components/language-switcher')}}
+            </div>
+          </div>
+        </div>
+        <div class="wb-header__bottom">
+          <div class="wb-header__searchbar" aria-hidden="true">
+            {{ include('_parts/components/searchbar', {
+              class: 'wb-header__searchbar'
+            }) }}
+            <button class="btn--icon wb-header__searchbar__close" type="button" aria-label="{{'nav.searchbar.close'}}">
+                <i class="fa-light fa-xmark" aria-hidden="true"></i>
+            </button>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ include('_parts/components/overlay') }}
+</header>

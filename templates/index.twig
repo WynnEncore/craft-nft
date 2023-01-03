@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <title>Welcome to Craft CMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="referrer" content="origin-when-cross-origin" />
+    <link rel="preconnect" href="https://fonts.google.com/specimen/Outfit"> 
+    {% css "/assets/css/theme.css" %}
+</head>
+<body class="ltr">
+  <h3 class="main-title">List of NFTS availables</h3>
+    <main>
+        {% set entries = craft.entries()
+        .section('nft')
+        .all() 
+        %}
+        {% if entries %}
+                {% include("nft/index") %}
+        {% else %}
+            <p>Sorry, no results for <strong>{{ query }}</strong> were found.</p>
+        {% endif %}        
+    </main>
+</body>
+</html>
