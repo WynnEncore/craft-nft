@@ -1,0 +1,32 @@
+dateApplied: '2023-01-02 10:04:13'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1672682592
+        to: 1672682652
+  -
+    added:
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.columnSuffix: fmfjuvsk
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.contentColumnType: text
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.fieldGroup: 540bed18-5b7e-4ffe-9728-fc9e00196596
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.handle: description
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.instructions: null
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.name: Description
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.searchable: false
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.settings.byteLimit: null
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.settings.charLimit: null
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.settings.code: false
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.settings.columnType: null
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.settings.initialRows: 4
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.settings.multiline: false
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.settings.placeholder: 'Enter your description'
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.settings.uiMode: normal
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.translationKeyFormat: null
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.translationMethod: none
+      fields.c7dc945f-f527-4e61-b5ba-1dd07244f416.type: craft\fields\PlainText
+    message: 'Save field “description”'
+  -
+    added:
+      meta.__names__.c7dc945f-f527-4e61-b5ba-1dd07244f416: Description

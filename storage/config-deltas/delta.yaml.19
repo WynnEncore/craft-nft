@@ -1,0 +1,54 @@
+dateApplied: '2023-01-02 10:25:07'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1672683825
+        to: 1672683907
+  -
+    added:
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.columnSuffix: null
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.contentColumnType: string
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.fieldGroup: 540bed18-5b7e-4ffe-9728-fc9e00196596
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.handle: nftImage
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.instructions: null
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.name: 'NFT Image'
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.searchable: false
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.allowSelfRelations: false
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.allowSubfolders: false
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.allowUploads: true
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.allowedKinds: null
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.defaultUploadLocationSource: 'volume:de202251-41b3-44d2-85e7-75ada9a43c30'
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.defaultUploadLocationSubpath: null
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.localizeRelations: false
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.maxRelations: null
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.minRelations: null
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.previewMode: full
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.restrictFiles: false
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.restrictLocation: false
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.restrictedDefaultUploadSubpath: null
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.restrictedLocationSource: 'volume:de202251-41b3-44d2-85e7-75ada9a43c30'
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.restrictedLocationSubpath: null
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.selectionCondition.__assoc__.0.0: elementType
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.selectionCondition.__assoc__.0.1: craft\elements\Asset
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.selectionCondition.__assoc__.1.0: fieldContext
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.selectionCondition.__assoc__.1.1: global
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.selectionCondition.__assoc__.2.0: class
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.selectionCondition.__assoc__.2.1: craft\elements\conditions\assets\AssetCondition
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.selectionLabel: null
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.showSiteMenu: false
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.showUnpermittedFiles: false
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.showUnpermittedVolumes: false
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.source: null
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.sources.0: 'volume:de202251-41b3-44d2-85e7-75ada9a43c30'
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.targetSiteId: null
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.validateRelatedElements: false
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.settings.viewMode: list
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.translationKeyFormat: null
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.translationMethod: site
+      fields.1d47e28c-030d-4a1e-84fe-aca0cbf26112.type: craft\fields\Assets
+    message: 'Save field “nftImage”'
+  -
+    added:
+      meta.__names__.1d47e28c-030d-4a1e-84fe-aca0cbf26112: 'NFT Image'

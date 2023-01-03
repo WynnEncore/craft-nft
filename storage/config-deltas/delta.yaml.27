@@ -1,0 +1,15 @@
+dateApplied: '2023-01-02 10:03:12'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1672682572
+        to: 1672682592
+  -
+    added:
+      fieldGroups.540bed18-5b7e-4ffe-9728-fc9e00196596.name: NFT
+    message: 'Save field group “NFT”'
+  -
+    added:
+      meta.__names__.540bed18-5b7e-4ffe-9728-fc9e00196596: NFT

@@ -1,0 +1,221 @@
+2022-12-17 02:48:15 [console.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=db_hoffman;port=3306 {"memory":9564296} 
+2022-12-17 02:48:15 [console.ERROR] [craft\db\Connection::open] could not find driver {"memory":9608152} 
+2022-12-17 02:48:15 [console.ERROR] [craft\base\ApplicationTrait::getIsDbConnectionValid] There was a problem connecting to the database: Craft CMS requires the PDO_MYSQL driver to operate. {"memory":9629032} 
+2022-12-17 02:48:15 [console.ERROR] [craft\errors\DbConnectException] PDOException: could not find driver in C:\Site Web\hoffman\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\Site Web\hoffman\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=127....', 'CraftCMS', 'CraftCMS', Array)
+#1 C:\Site Web\hoffman\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\Site Web\hoffman\vendor\craftcms\cms\src\db\Connection.php(127): yii\db\Connection->open()
+#3 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(841): craft\db\Connection->open()
+#4 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(356): craft\console\Application->getIsDbConnectionValid()
+#5 C:\Site Web\hoffman\vendor\craftcms\cms\src\helpers\App.php(912): craft\console\Application->getIsInstalled()
+#6 C:\Site Web\hoffman\vendor\craftcms\cms\src\config\app.php(245): craft\helpers\App::projectConfigConfig()
+#7 [internal function]: {closure}()
+#8 C:\Site Web\hoffman\vendor\yiisoft\yii2\di\Container.php(633): call_user_func_array(Object(Closure), Array)
+#9 C:\Site Web\hoffman\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->invoke(Object(Closure), Array)
+#10 C:\Site Web\hoffman\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Object(Closure))
+#11 C:\Site Web\hoffman\vendor\yiisoft\yii2\base\Module.php(766): yii\di\ServiceLocator->get('projectConfig', true)
+#12 C:\Site Web\hoffman\vendor\craftcms\cms\src\console\Application.php(173): yii\base\Module->get('projectConfig', true)
+#13 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(1245): craft\console\Application->get('projectConfig')
+#14 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(1515): craft\console\Application->getProjectConfig()
+#15 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(1471): craft\console\Application->_setTimeZone()
+#16 C:\Site Web\hoffman\vendor\craftcms\cms\src\console\Application.php(50): craft\console\Application->_preInit()
+#17 C:\Site Web\hoffman\vendor\yiisoft\yii2\base\BaseObject.php(109): craft\console\Application->init()
+#18 C:\Site Web\hoffman\vendor\yiisoft\yii2\base\Application.php(204): yii\base\BaseObject->__construct(Array)
+#19 C:\Site Web\hoffman\vendor\yiisoft\yii2\console\Application.php(89): yii\base\Application->__construct(Array)
+#20 [internal function]: yii\console\Application->__construct(Array)
+#21 C:\Site Web\hoffman\vendor\yiisoft\yii2\di\Container.php(419): ReflectionClass->newInstanceArgs(Array)
+#22 C:\Site Web\hoffman\vendor\yiisoft\yii2\di\Container.php(170): yii\di\Container->build('craft\\console\\A...', Array, Array)
+#23 C:\Site Web\hoffman\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get('craft\\console\\A...', Array, Array)
+#24 C:\Site Web\hoffman\vendor\craftcms\cms\src\Craft.php(53): yii\BaseYii::createObject(Array, Array)
+#25 C:\Site Web\hoffman\vendor\craftcms\cms\bootstrap\bootstrap.php(252): Craft::createObject(Array)
+#26 C:\Site Web\hoffman\vendor\craftcms\cms\bootstrap\console.php(40): require('C:\\Site Web\\hof...')
+#27 C:\Site Web\hoffman\craft(12): require('C:\\Site Web\\hof...')
+#28 {main}
+
+Next yii\db\Exception: could not find driver in C:\Site Web\hoffman\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\Site Web\hoffman\vendor\craftcms\cms\src\db\Connection.php(127): yii\db\Connection->open()
+#1 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(841): craft\db\Connection->open()
+#2 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(356): craft\console\Application->getIsDbConnectionValid()
+#3 C:\Site Web\hoffman\vendor\craftcms\cms\src\helpers\App.php(912): craft\console\Application->getIsInstalled()
+#4 C:\Site Web\hoffman\vendor\craftcms\cms\src\config\app.php(245): craft\helpers\App::projectConfigConfig()
+#5 [internal function]: {closure}()
+#6 C:\Site Web\hoffman\vendor\yiisoft\yii2\di\Container.php(633): call_user_func_array(Object(Closure), Array)
+#7 C:\Site Web\hoffman\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->invoke(Object(Closure), Array)
+#8 C:\Site Web\hoffman\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Object(Closure))
+#9 C:\Site Web\hoffman\vendor\yiisoft\yii2\base\Module.php(766): yii\di\ServiceLocator->get('projectConfig', true)
+#10 C:\Site Web\hoffman\vendor\craftcms\cms\src\console\Application.php(173): yii\base\Module->get('projectConfig', true)
+#11 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(1245): craft\console\Application->get('projectConfig')
+#12 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(1515): craft\console\Application->getProjectConfig()
+#13 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(1471): craft\console\Application->_setTimeZone()
+#14 C:\Site Web\hoffman\vendor\craftcms\cms\src\console\Application.php(50): craft\console\Application->_preInit()
+#15 C:\Site Web\hoffman\vendor\yiisoft\yii2\base\BaseObject.php(109): craft\console\Application->init()
+#16 C:\Site Web\hoffman\vendor\yiisoft\yii2\base\Application.php(204): yii\base\BaseObject->__construct(Array)
+#17 C:\Site Web\hoffman\vendor\yiisoft\yii2\console\Application.php(89): yii\base\Application->__construct(Array)
+#18 [internal function]: yii\console\Application->__construct(Array)
+#19 C:\Site Web\hoffman\vendor\yiisoft\yii2\di\Container.php(419): ReflectionClass->newInstanceArgs(Array)
+#20 C:\Site Web\hoffman\vendor\yiisoft\yii2\di\Container.php(170): yii\di\Container->build('craft\\console\\A...', Array, Array)
+#21 C:\Site Web\hoffman\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get('craft\\console\\A...', Array, Array)
+#22 C:\Site Web\hoffman\vendor\craftcms\cms\src\Craft.php(53): yii\BaseYii::createObject(Array, Array)
+#23 C:\Site Web\hoffman\vendor\craftcms\cms\bootstrap\bootstrap.php(252): Craft::createObject(Array)
+#24 C:\Site Web\hoffman\vendor\craftcms\cms\bootstrap\console.php(40): require('C:\\Site Web\\hof...')
+#25 C:\Site Web\hoffman\craft(12): require('C:\\Site Web\\hof...')
+#26 {main}
+
+Next craft\errors\DbConnectException: Craft CMS requires the PDO_MYSQL driver to operate. in C:\Site Web\hoffman\vendor\craftcms\cms\src\db\Connection.php:136
+Stack trace:
+#0 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(841): craft\db\Connection->open()
+#1 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(356): craft\console\Application->getIsDbConnectionValid()
+#2 C:\Site Web\hoffman\vendor\craftcms\cms\src\helpers\App.php(912): craft\console\Application->getIsInstalled()
+#3 C:\Site Web\hoffman\vendor\craftcms\cms\src\config\app.php(245): craft\helpers\App::projectConfigConfig()
+#4 [internal function]: {closure}()
+#5 C:\Site Web\hoffman\vendor\yiisoft\yii2\di\Container.php(633): call_user_func_array(Object(Closure), Array)
+#6 C:\Site Web\hoffman\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->invoke(Object(Closure), Array)
+#7 C:\Site Web\hoffman\vendor\yiisoft\yii2\di\ServiceLocator.php(137): yii\BaseYii::createObject(Object(Closure))
+#8 C:\Site Web\hoffman\vendor\yiisoft\yii2\base\Module.php(766): yii\di\ServiceLocator->get('projectConfig', true)
+#9 C:\Site Web\hoffman\vendor\craftcms\cms\src\console\Application.php(173): yii\base\Module->get('projectConfig', true)
+#10 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(1245): craft\console\Application->get('projectConfig')
+#11 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(1515): craft\console\Application->getProjectConfig()
+#12 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(1471): craft\console\Application->_setTimeZone()
+#13 C:\Site Web\hoffman\vendor\craftcms\cms\src\console\Application.php(50): craft\console\Application->_preInit()
+#14 C:\Site Web\hoffman\vendor\yiisoft\yii2\base\BaseObject.php(109): craft\console\Application->init()
+#15 C:\Site Web\hoffman\vendor\yiisoft\yii2\base\Application.php(204): yii\base\BaseObject->__construct(Array)
+#16 C:\Site Web\hoffman\vendor\yiisoft\yii2\console\Application.php(89): yii\base\Application->__construct(Array)
+#17 [internal function]: yii\console\Application->__construct(Array)
+#18 C:\Site Web\hoffman\vendor\yiisoft\yii2\di\Container.php(419): ReflectionClass->newInstanceArgs(Array)
+#19 C:\Site Web\hoffman\vendor\yiisoft\yii2\di\Container.php(170): yii\di\Container->build('craft\\console\\A...', Array, Array)
+#20 C:\Site Web\hoffman\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get('craft\\console\\A...', Array, Array)
+#21 C:\Site Web\hoffman\vendor\craftcms\cms\src\Craft.php(53): yii\BaseYii::createObject(Array, Array)
+#22 C:\Site Web\hoffman\vendor\craftcms\cms\bootstrap\bootstrap.php(252): Craft::createObject(Array)
+#23 C:\Site Web\hoffman\vendor\craftcms\cms\bootstrap\console.php(40): require('C:\\Site Web\\hof...')
+#24 C:\Site Web\hoffman\craft(12): require('C:\\Site Web\\hof...')
+#25 {main} {"memory":9629408,"exception":"[object] (craft\\errors\\DbConnectException(code: 0): Craft CMS requires the PDO_MYSQL driver to operate. at C:\\Site Web\\hoffman\\vendor\\craftcms\\cms\\src\\db\\Connection.php:136)
+[previous exception] [object] (yii\\db\\Exception(code: 0): could not find driver at C:\\Site Web\\hoffman\\vendor\\yiisoft\\yii2\\db\\Connection.php:648)
+[previous exception] [object] (PDOException(code: 0): could not find driver at C:\\Site Web\\hoffman\\vendor\\yiisoft\\yii2\\db\\Connection.php:722)"} 
+2022-12-17 02:48:15 [console.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=db_hoffman;port=3306 {"memory":11467304} 
+2022-12-17 02:48:15 [console.ERROR] [craft\db\Connection::open] could not find driver {"memory":11480280} 
+2022-12-17 02:48:15 [console.ERROR] [craft\base\ApplicationTrait::getIsDbConnectionValid] There was a problem connecting to the database: Craft CMS requires the PDO_MYSQL driver to operate. {"memory":11485552} 
+2022-12-17 02:48:15 [console.ERROR] [craft\errors\DbConnectException] PDOException: could not find driver in C:\Site Web\hoffman\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\Site Web\hoffman\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=127....', 'CraftCMS', 'CraftCMS', Array)
+#1 C:\Site Web\hoffman\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\Site Web\hoffman\vendor\craftcms\cms\src\db\Connection.php(127): yii\db\Connection->open()
+#3 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(841): craft\db\Connection->open()
+#4 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(356): craft\console\Application->getIsDbConnectionValid()
+#5 C:\Site Web\hoffman\vendor\craftcms\cms\src\console\Application.php(73): craft\console\Application->getIsInstalled(true)
+#6 C:\Site Web\hoffman\vendor\yiisoft\yii2\console\Application.php(147): craft\console\Application->runAction('setup/security-...', Array)
+#7 C:\Site Web\hoffman\vendor\craftcms\cms\src\console\Application.php(121): yii\console\Application->handleRequest(Object(craft\console\Request))
+#8 C:\Site Web\hoffman\vendor\yiisoft\yii2\base\Application.php(384): craft\console\Application->handleRequest(Object(craft\console\Request))
+#9 C:\Site Web\hoffman\craft(13): yii\base\Application->run()
+#10 {main}
+
+Next yii\db\Exception: could not find driver in C:\Site Web\hoffman\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\Site Web\hoffman\vendor\craftcms\cms\src\db\Connection.php(127): yii\db\Connection->open()
+#1 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(841): craft\db\Connection->open()
+#2 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(356): craft\console\Application->getIsDbConnectionValid()
+#3 C:\Site Web\hoffman\vendor\craftcms\cms\src\console\Application.php(73): craft\console\Application->getIsInstalled(true)
+#4 C:\Site Web\hoffman\vendor\yiisoft\yii2\console\Application.php(147): craft\console\Application->runAction('setup/security-...', Array)
+#5 C:\Site Web\hoffman\vendor\craftcms\cms\src\console\Application.php(121): yii\console\Application->handleRequest(Object(craft\console\Request))
+#6 C:\Site Web\hoffman\vendor\yiisoft\yii2\base\Application.php(384): craft\console\Application->handleRequest(Object(craft\console\Request))
+#7 C:\Site Web\hoffman\craft(13): yii\base\Application->run()
+#8 {main}
+
+Next craft\errors\DbConnectException: Craft CMS requires the PDO_MYSQL driver to operate. in C:\Site Web\hoffman\vendor\craftcms\cms\src\db\Connection.php:136
+Stack trace:
+#0 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(841): craft\db\Connection->open()
+#1 C:\Site Web\hoffman\vendor\craftcms\cms\src\base\ApplicationTrait.php(356): craft\console\Application->getIsDbConnectionValid()
+#2 C:\Site Web\hoffman\vendor\craftcms\cms\src\console\Application.php(73): craft\console\Application->getIsInstalled(true)
+#3 C:\Site Web\hoffman\vendor\yiisoft\yii2\console\Application.php(147): craft\console\Application->runAction('setup/security-...', Array)
+#4 C:\Site Web\hoffman\vendor\craftcms\cms\src\console\Application.php(121): yii\console\Application->handleRequest(Object(craft\console\Request))
+#5 C:\Site Web\hoffman\vendor\yiisoft\yii2\base\Application.php(384): craft\console\Application->handleRequest(Object(craft\console\Request))
+#6 C:\Site Web\hoffman\craft(13): yii\base\Application->run()
+#7 {main} {"memory":11485928,"exception":"[object] (craft\\errors\\DbConnectException(code: 0): Craft CMS requires the PDO_MYSQL driver to operate. at C:\\Site Web\\hoffman\\vendor\\craftcms\\cms\\src\\db\\Connection.php:136)
+[previous exception] [object] (yii\\db\\Exception(code: 0): could not find driver at C:\\Site Web\\hoffman\\vendor\\yiisoft\\yii2\\db\\Connection.php:648)
+[previous exception] [object] (PDOException(code: 0): could not find driver at C:\\Site Web\\hoffman\\vendor\\yiisoft\\yii2\\db\\Connection.php:722)"} 
+2022-12-17 02:48:15 [console.INFO] [application] Request context:
+$_GET = []
+
+$_POST = []
+
+$_COOKIE = []
+
+$_FILES = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\sylva\\AppData\\Roaming'
+    'ChocolateyInstall' => 'C:\\ProgramData\\chocolatey'
+    'ChocolateyLastPathUpdate' => '133154424928439045'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'DESKTOP-QAF49FL'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'DriverData' => 'C:\\Windows\\System32\\Drivers\\DriverData'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\sylva'
+    'LOCALAPPDATA' => 'C:\\Users\\sylva\\AppData\\Local'
+    'LOGONSERVER' => '\\\\DESKTOP-QAF49FL'
+    'NUMBER_OF_PROCESSORS' => '12'
+    'NVM_HOME' => 'C:\\Users\\sylva\\AppData\\Roaming\\nvm'
+    'NVM_SYMLINK' => 'C:\\Program Files\\nodejs'
+    'OneDrive' => 'C:\\Users\\sylva\\OneDrive'
+    'OneDriveConsumer' => 'C:\\Users\\sylva\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\Python311\\Scripts\\;C:\\Python311\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\sylva\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\dotnet\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\sylva\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\sylva\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\sylva\\AppData\\Local\\atom\\bin;C:\\Users\\sylva\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\sylva\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sylva\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Program Files\\JetBrains\\PhpStorm 2020.1\\bin;C:\\curl;C:\\Users\\sylva\\App;C:\\wp-cli;C:\\Users\\sylva\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\sylva\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'PhpStorm' => 'C:\\Program Files\\JetBrains\\PhpStorm 2020.1\\bin;'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 158 Stepping 10, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '9e0a'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\sylva\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\sylva\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'DESKTOP-QAF49FL'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-QAF49FL'
+    'USERNAME' => 'sylva'
+    'USERPROFILE' => 'C:\\Users\\sylva'
+    'VBOX_MSI_INSTALL_PATH' => 'C:\\Program Files\\Oracle\\VirtualBox\\'
+    'windir' => 'C:\\WINDOWS'
+    'ZES_ENABLE_SYSMAN' => '1'
+    'PHP_SELF' => 'craft'
+    'SCRIPT_NAME' => 'craft'
+    'SCRIPT_FILENAME' => 'craft'
+    'PATH_TRANSLATED' => 'craft'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1671245295.2151
+    'REQUEST_TIME' => 1671245295
+    'argv' => [
+        0 => 'craft'
+        1 => 'setup/security-key'
+    ]
+    'argc' => 2
+    'CRAFT_APP_ID' => ''
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '3306'
+    'CRAFT_DB_DATABASE' => 'db_hoffman'
+    'CRAFT_DB_USER' => 'CraftCMS'
+    'CRAFT_DB_PASSWORD' => '••••••••'
+    'CRAFT_DB_SCHEMA' => 'public'
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+]  

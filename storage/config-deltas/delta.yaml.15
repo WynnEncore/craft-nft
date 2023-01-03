@@ -1,0 +1,30 @@
+dateApplied: '2023-01-02 10:26:12'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1672683936
+        to: 1672683972
+  -
+    added:
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.columnSuffix: ueeuyxvx
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.contentColumnType: datetime
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.fieldGroup: 540bed18-5b7e-4ffe-9728-fc9e00196596
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.handle: salesStartDate
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.instructions: null
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.name: 'Sales Start Date'
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.searchable: false
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.settings.max: null
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.settings.min: null
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.settings.minuteIncrement: 30
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.settings.showDate: true
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.settings.showTime: true
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.settings.showTimeZone: false
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.translationKeyFormat: null
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.translationMethod: none
+      fields.5eafcf51-f9db-4583-9a19-1fdb309694f7.type: craft\fields\Date
+    message: 'Save field “salesStartDate”'
+  -
+    added:
+      meta.__names__.5eafcf51-f9db-4583-9a19-1fdb309694f7: 'Sales Start Date'

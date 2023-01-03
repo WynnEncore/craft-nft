@@ -1,0 +1,49 @@
+dateApplied: '2022-12-17 03:05:24'
+changes:
+  -
+    added:
+      fieldGroups.0bcca012-bb37-4f62-a918-2aece6f0e9c2.name: Common
+  -
+    added:
+      siteGroups.dbb55cdc-4011-481a-baab-c8daef391081.name: Hoffman
+  -
+    added:
+      sites.4501600c-afab-418b-b6a6-7f181a8b462b.baseUrl: $PRIMARY_SITE_URL
+      sites.4501600c-afab-418b-b6a6-7f181a8b462b.handle: default
+      sites.4501600c-afab-418b-b6a6-7f181a8b462b.hasUrls: true
+      sites.4501600c-afab-418b-b6a6-7f181a8b462b.language: en-US
+      sites.4501600c-afab-418b-b6a6-7f181a8b462b.name: Hoffman
+      sites.4501600c-afab-418b-b6a6-7f181a8b462b.primary: true
+      sites.4501600c-afab-418b-b6a6-7f181a8b462b.siteGroup: dbb55cdc-4011-481a-baab-c8daef391081
+      sites.4501600c-afab-418b-b6a6-7f181a8b462b.sortOrder: 1
+  -
+    added:
+      dateModified: 1671246324
+  -
+    added:
+      email.fromEmail: sylvaintremblay1999@outlook.com
+      email.fromName: Hoffman
+      email.transportType: craft\mail\transportadapters\Sendmail
+  -
+    added:
+      system.edition: solo
+      system.name: Hoffman
+      system.live: true
+      system.schemaVersion: 4.0.0.9
+      system.timeZone: America/Los_Angeles
+  -
+    added:
+      users.requireEmailVerification: true
+      users.allowPublicRegistration: false
+      users.defaultGroup: null
+      users.photoVolumeUid: null
+      users.photoSubpath: null
+  -
+    added:
+      meta.__names__.0bcca012-bb37-4f62-a918-2aece6f0e9c2: Common
+  -
+    added:
+      meta.__names__.dbb55cdc-4011-481a-baab-c8daef391081: Hoffman
+  -
+    added:
+      meta.__names__.4501600c-afab-418b-b6a6-7f181a8b462b: Hoffman

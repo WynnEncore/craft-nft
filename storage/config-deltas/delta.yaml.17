@@ -1,0 +1,30 @@
+dateApplied: '2023-01-02 10:25:37'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1672683907
+        to: 1672683936
+  -
+    added:
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.columnSuffix: fkbnssds
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.contentColumnType: integer(10)
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.fieldGroup: 540bed18-5b7e-4ffe-9728-fc9e00196596
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.handle: salesPrice
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.instructions: null
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.name: 'Sales Price'
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.searchable: false
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.settings.currency: CAD
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.settings.defaultValue: null
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.settings.max: null
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.settings.min: 0
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.settings.showCurrency: true
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.settings.size: null
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.translationKeyFormat: null
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.translationMethod: none
+      fields.44ff9df3-b421-4819-bb38-b54cd25c65c4.type: craft\fields\Money
+    message: 'Save field “salesPrice”'
+  -
+    added:
+      meta.__names__.44ff9df3-b421-4819-bb38-b54cd25c65c4: 'Sales Price'

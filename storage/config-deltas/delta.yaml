@@ -1,0 +1,11 @@
+dateApplied: '2023-01-02 13:44:59'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1672692890
+        to: 1672695899
+  -
+    added:
+      elementSources.craft\elements\Entry.2.tableAttributes.4: 'field:6071fff8-2b8f-481e-94c7-f89bff139e8f'

@@ -1,0 +1,67 @@
+dateApplied: '2023-01-02 10:02:52'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1671246324
+        to: 1672682572
+  -
+    added:
+      sections.954fbdf1-5b70-46d8-92e3-2017d987725d.defaultPlacement: end
+      sections.954fbdf1-5b70-46d8-92e3-2017d987725d.enableVersioning: true
+      sections.954fbdf1-5b70-46d8-92e3-2017d987725d.handle: nft
+      sections.954fbdf1-5b70-46d8-92e3-2017d987725d.name: NFT
+      sections.954fbdf1-5b70-46d8-92e3-2017d987725d.propagationMethod: all
+      sections.954fbdf1-5b70-46d8-92e3-2017d987725d.siteSettings.4501600c-afab-418b-b6a6-7f181a8b462b.enabledByDefault: true
+      sections.954fbdf1-5b70-46d8-92e3-2017d987725d.siteSettings.4501600c-afab-418b-b6a6-7f181a8b462b.hasUrls: true
+      sections.954fbdf1-5b70-46d8-92e3-2017d987725d.siteSettings.4501600c-afab-418b-b6a6-7f181a8b462b.template: nft/_entry
+      sections.954fbdf1-5b70-46d8-92e3-2017d987725d.siteSettings.4501600c-afab-418b-b6a6-7f181a8b462b.uriFormat: 'nft/{slug}'
+      sections.954fbdf1-5b70-46d8-92e3-2017d987725d.type: channel
+    message: 'Save section “nft”'
+  -
+    added:
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elementCondition: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.autocapitalize: true
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.autocomplete: false
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.autocorrect: true
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.class: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.disabled: false
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.elementCondition: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.id: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.instructions: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.label: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.max: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.min: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.name: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.orientation: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.placeholder: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.readonly: false
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.requirable: false
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.size: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.step: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.tip: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.title: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.type: craft\fieldlayoutelements\entries\EntryTitleField
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.uid: 9648db3e-7cd4-4ad4-9b6c-ae98447e49fb
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.userCondition: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.warning: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.elements.0.width: 100
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.name: Content
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.uid: 1068149c-6048-48b4-a106-48975079ce7e
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.fieldLayouts.5e88901a-146e-4a93-b10d-072f674d1c8c.tabs.0.userCondition: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.handle: default
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.hasTitleField: true
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.name: Default
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.section: 954fbdf1-5b70-46d8-92e3-2017d987725d
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.sortOrder: 1
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.titleFormat: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.titleTranslationKeyFormat: null
+      entryTypes.21bc1746-265f-439b-ae60-b19f978f3297.titleTranslationMethod: site
+    message: 'Save entry type “default”'
+  -
+    added:
+      meta.__names__.954fbdf1-5b70-46d8-92e3-2017d987725d: NFT
+  -
+    added:
+      meta.__names__.21bc1746-265f-439b-ae60-b19f978f3297: Default

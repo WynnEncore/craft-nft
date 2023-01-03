@@ -1,0 +1,51 @@
+dateApplied: '2023-01-02 10:23:45'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1672683732
+        to: 1672683825
+  -
+    added:
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elementCondition: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.autocapitalize: true
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.autocomplete: false
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.autocorrect: true
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.class: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.disabled: false
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.elementCondition: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.id: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.instructions: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.label: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.max: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.min: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.name: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.orientation: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.placeholder: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.readonly: false
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.requirable: false
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.size: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.step: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.tip: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.title: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.type: craft\fieldlayoutelements\assets\AssetTitleField
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.uid: 637cf3af-0727-4a39-b6ae-488bf602937b
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.userCondition: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.warning: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.elements.0.width: 100
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.name: Content
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.uid: ea8fc347-2ac0-4105-b0a1-cb66030bad16
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fieldLayouts.8928a002-d630-47bb-b0e2-2474eba0624c.tabs.0.userCondition: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.fs: nfts
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.handle: nftImage
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.name: 'NFT Image'
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.sortOrder: 1
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.titleTranslationKeyFormat: null
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.titleTranslationMethod: site
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.transformFs: ''
+      volumes.de202251-41b3-44d2-85e7-75ada9a43c30.transformSubpath: ''
+    message: 'Save the “nftImage” volume'
+  -
+    added:
+      meta.__names__.de202251-41b3-44d2-85e7-75ada9a43c30: 'NFT Image'

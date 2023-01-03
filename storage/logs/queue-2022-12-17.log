@@ -1,0 +1,142 @@
+2022-12-17 03:05:28 [queue.INFO] [yii\db\Connection::open] Opening DB connection: mysql:host=127.0.0.1;dbname=db_hoffman;port=3306 {"memory":10549320} 
+2022-12-17 03:05:28 [queue.INFO] [yii\web\Session::open] Session started {"memory":13010632} 
+2022-12-17 03:05:28 [queue.INFO] [craft\queue\QueueLogBehavior::beforeExec]  [1] t9n:["app","Updating search indexes"] (attempt: 1, pid: 20036) - Started {"memory":17001072} 
+2022-12-17 03:05:28 [queue.INFO] [craft\queue\QueueLogBehavior::afterExec]  [1] t9n:["app","Updating search indexes"] (attempt: 1, pid: 20036) - Done (time: 0.042s) {"memory":17609008} 
+2022-12-17 03:05:28 [queue.INFO] [application] Request context:
+$_GET = [
+    'p' => 'admin/actions/queue/run'
+    'v' => '1671246327731'
+]
+
+$_POST = []
+
+$_COOKIE = [
+    'CraftSessionId' => '71b8289c3ae832f08635b0e660389ce9'
+    '2da3426bc4860615af29ef5605940b2e_identity' => 'c1cb759ec169c8f76b8c09131c7685b504101e22ae73a9b7bfe8db65b125da3fa:2:{i:0;s:41:\"2da3426bc4860615af29ef5605940b2e_identity\";i:1;s:159:\"[1,\"[\\\"WHWowbEdVfM8MBGVgdrOVn7VyrfNlDLZPlBnKryMJDOdmV1ldwRaCiCRtc0ux9FizQ5kEz0v4eiKS3ok8qD7eAx_5NtD3kh-q6aA\\\",null,\\\"a818ab359804517f2549e94c88d03c0b\\\"]\",3600]\";}'
+    'CRAFT_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    '2da3426bc4860615af29ef5605940b2e_username' => '45c70352b7dfea642d9a54923e633f989a73a03a9723efd5c5007dac455ae9bba:2:{i:0;s:41:\"2da3426bc4860615af29ef5605940b2e_username\";i:1;s:7:\"Sylvain\";}'
+]
+
+$_FILES = []
+
+$_SERVER = [
+    'PATH' => 'C:\\Python311\\Scripts\\;C:\\Python311\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\PuTTY\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\sylva\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files (x86)\\dotnet\\;C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Microsoft\\WindowsApps'
+    'SYSTEMROOT' => 'C:/WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHPRC' => 'C:/Users/Public/Documents/Appsolute/MAMPPRO/conf/php8.1.0.ini'
+    'SYSTEMDRIVE' => 'C:/'
+    'TEMP' => 'C:/WINDOWS/temp/'
+    'TMP' => 'C:/WINDOWS/temp/'
+    '_FCGI_SHUTDOWN_EVENT_' => '1368'
+    'SCRIPT_NAME' => '/web/index.php'
+    'REQUEST_URI' => '/web/index.php?p=admin%2Factions%2Fqueue%2Frun&v=1671246327731'
+    'QUERY_STRING' => 'p=admin%2Factions%2Fqueue%2Frun&v=1671246327731'
+    'REQUEST_METHOD' => 'POST'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '35364'
+    'SCRIPT_FILENAME' => 'C:/Site Web/hoffman/web/index.php'
+    'SERVER_ADMIN' => 'you@example.com'
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/Site Web/hoffman'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'https'
+    'DOCUMENT_ROOT' => 'C:/Site Web/hoffman'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'hoffman.local'
+    'SERVER_SOFTWARE' => 'Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_COOKIE' => 'CraftSessionId=71b8289c3ae832f08635b0e660389ce9; 2da3426bc4860615af29ef5605940b2e_identity=c1cb759ec169c8f76b8c09131c7685b504101e22ae73a9b7bfe8db65b125da3fa%3A2%3A%7Bi%3A0%3Bs%3A41%3A%222da3426bc4860615af29ef5605940b2e_identity%22%3Bi%3A1%3Bs%3A159%3A%22%5B1%2C%22%5B%5C%22WHWowbEdVfM8MBGVgdrOVn7VyrfNlDLZPlBnKryMJDOdmV1ldwRaCiCRtc0ux9FizQ5kEz0v4eiKS3ok8qD7eAx_5NtD3kh-q6aA%5C%22%2Cnull%2C%5C%22a818ab359804517f2549e94c88d03c0b%5C%22%5D%22%2C3600%5D%22%3B%7D; CRAFT_CSRF_TOKEN=05c54e33c66d7aa56ad9983c0cd65fb866aabd0025664aa70b1490c132844ecaa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22CRAFT_CSRF_TOKEN%22%3Bi%3A1%3Bs%3A147%3A%22pm0ea2umyRTHW4dCakLqTzh34TxXBaO5EXdpsYuV%7C830820fbb0022393273ce62e07d03fe887ae99e187e3fc31629505cae615e725pm0ea2umyRTHW4dCakLqTzh34TxXBaO5EXdpsYuV%7C1%22%3B%7D; 2da3426bc4860615af29ef5605940b2e_username=45c70352b7dfea642d9a54923e633f989a73a03a9723efd5c5007dac455ae9bba%3A2%3A%7Bi%3A0%3Bs%3A41%3A%222da3426bc4860615af29ef5605940b2e_username%22%3Bi%3A1%3Bs%3A7%3A%22Sylvain%22%3B%7D'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,fr-CA;q=0.8,fr;q=0.7,la;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_REFERER' => 'https://hoffman.local/web/admin/dashboard'
+    'HTTP_SEC_FETCH_DEST' => 'empty'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ORIGIN' => 'https://hoffman.local'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_ACCEPT' => 'application/json, text/plain, */*'
+    'HTTP_X_REGISTERED_JS_FILES' => ',https://hoffman.local/web/cpresources/e2c63d4d/tailwind_reset.js?v=1671246248,https://hoffman.local/web/cpresources/d5aa2b81/axios.js?v=1671246248,https://hoffman.local/web/cpresources/f3ae036e/d3.js?v=1671246248,https://hoffman.local/web/cpresources/32800e85/element-resize-detector.js?v=1671246248,https://hoffman.local/web/cpresources/3760116d/jquery.js?v=1671246248,https://hoffman.local/web/cpresources/619d65c7/jquery.mobile-events.js?v=1671246248,https://hoffman.local/web/cpresources/6459b812/velocity.js?v=1671246248,https://hoffman.local/web/cpresources/8bf1bcc4/garnish.js?v=1671246248,https://hoffman.local/web/cpresources/3d87817b/jquery-ui.js?v=1671246248,https://hoffman.local/web/cpresources/61cebaa5/jquery.payment.js?v=1671246248,https://hoffman.local/web/cpresources/5d95607b/picturefill.js?v=1671246248,https://hoffman.local/web/cpresources/e5d3876f/selectize.js?v=1671246248,https://hoffman.local/web/cpresources/23fc57d0/jquery.fileupload.js?v=1671246248,https://hoffman.local/web/cpresources/562ddd7b/xregexp-all.js?v=1671246248,https://hoffman.local/web/cpresources/a3438bd3/fabric.js?v=1671246248,https://hoffman.local/web/cpresources/f8cf0ad9/iframeResizer.js?v=1671246248,https://hoffman.local/web/cpresources/e99b2527/cp.js?v=1671246248,https://hoffman.local/web/cpresources/cd5fbed8/RecentEntriesWidget.js?v=1671246326,https://hoffman.local/web/cpresources/54490abf/CraftSupportWidget.js?v=1671246326,https://hoffman.local/web/cpresources/f3e5fcb6/UpdatesWidget.js?v=1671246327,https://hoffman.local/web/cpresources/6b5c37fb/FeedWidget.js?v=1671246327,https://hoffman.local/web/cpresources/121f1130/Dashboard.js?v=1671246327'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36'
+    'HTTP_X_REGISTERED_ASSET_BUNDLES' => ',craft\\web\\assets\\recententries\\RecentEntriesAsset,craft\\web\\assets\\cp\\CpAsset,craft\\web\\assets\\tailwindreset\\TailwindResetAsset,craft\\web\\assets\\axios\\AxiosAsset,craft\\web\\assets\\d3\\D3Asset,craft\\web\\assets\\elementresizedetector\\ElementResizeDetectorAsset,craft\\web\\assets\\garnish\\GarnishAsset,yii\\web\\JqueryAsset,craft\\web\\assets\\jquerytouchevents\\JqueryTouchEventsAsset,craft\\web\\assets\\velocity\\VelocityAsset,craft\\web\\assets\\jqueryui\\JqueryUiAsset,craft\\web\\assets\\jquerypayment\\JqueryPaymentAsset,craft\\web\\assets\\datepickeri18n\\DatepickerI18nAsset,craft\\web\\assets\\picturefill\\PicturefillAsset,craft\\web\\assets\\selectize\\SelectizeAsset,craft\\web\\assets\\fileupload\\FileUploadAsset,craft\\web\\assets\\xregexp\\XregexpAsset,craft\\web\\assets\\fabric\\FabricAsset,craft\\web\\assets\\iframeresizer\\IframeResizerAsset,craft\\web\\assets\\craftsupport\\CraftSupportAsset,craft\\web\\assets\\updateswidget\\UpdatesWidgetAsset,craft\\web\\assets\\feed\\FeedAsset,craft\\web\\assets\\dashboard\\DashboardAsset'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_X_CSRF_TOKEN' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    'HTTP_SEC_CH_UA' => '\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'hoffman.local'
+    'SSL_SESSION_RESUMED' => 'Resumed'
+    'SSL_SESSION_ID' => '01489254b0bb64bb48514a8a6feefdb1ea03638922c5ecb08916d079dfbb5fde'
+    'SSL_SERVER_A_SIG' => 'sha256WithRSAEncryption'
+    'SSL_SERVER_A_KEY' => '•••••••••••••'
+    'SSL_SERVER_I_DN' => 'CN=hoffman,emailAddress=autossltest@mamp.info,O=MP,L=MP,ST=MP,C=MP'
+    'SSL_SERVER_S_DN' => 'CN=hoffman,emailAddress=autossltest@mamp.info,O=MP,L=MP,ST=MP,C=MP'
+    'SSL_SERVER_V_END' => 'Dec 16 17:49:47 2023 GMT'
+    'SSL_SERVER_V_START' => 'Dec 16 17:49:47 2022 GMT'
+    'SSL_SERVER_M_SERIAL' => '90453A7BE72EAA36'
+    'SSL_SERVER_M_VERSION' => '3'
+    'SSL_CLIENT_VERIFY' => 'NONE'
+    'SSL_CIPHER_ALGKEYSIZE' => '128'
+    'SSL_CIPHER_USEKEYSIZE' => '128'
+    'SSL_CIPHER_EXPORT' => 'false'
+    'SSL_CIPHER' => 'ECDHE-RSA-AES128-GCM-SHA256'
+    'SSL_COMPRESS_METHOD' => 'NULL'
+    'SSL_SECURE_RENEG' => 'true'
+    'SSL_PROTOCOL' => 'TLSv1.2'
+    'SSL_VERSION_LIBRARY' => 'OpenSSL/1.0.2u'
+    'SSL_VERSION_INTERFACE' => 'mod_ssl/2.4.33'
+    'SSL_SERVER_SAN_DNS_1' => 'hoffmanAtDESKTOP-QAF49FL.local'
+    'SSL_SERVER_SAN_DNS_0' => 'hoffman'
+    'SSL_SERVER_I_DN_CN' => 'hoffman'
+    'SSL_SERVER_I_DN_Email' => 'autossltest@mamp.info'
+    'SSL_SERVER_I_DN_O' => 'MP'
+    'SSL_SERVER_I_DN_L' => 'MP'
+    'SSL_SERVER_I_DN_ST' => 'MP'
+    'SSL_SERVER_I_DN_C' => 'MP'
+    'SSL_SERVER_S_DN_CN' => 'hoffman'
+    'SSL_SERVER_S_DN_Email' => 'autossltest@mamp.info'
+    'SSL_SERVER_S_DN_O' => 'MP'
+    'SSL_SERVER_S_DN_L' => 'MP'
+    'SSL_SERVER_S_DN_ST' => 'MP'
+    'SSL_SERVER_S_DN_C' => 'MP'
+    'SSL_TLS_SNI' => 'hoffman.local'
+    'HTTPS' => 'on'
+    'UNIQUE_ID' => 'Y50x960CTGt-njZdfb0yzAAAADw'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1671246327.7376
+    'REQUEST_TIME' => 1671246327
+    'argv' => [
+        0 => 'p=admin%2Factions%2Fqueue%2Frun&v=1671246327731'
+    ]
+    'argc' => 1
+    'CRAFT_APP_ID' => 'hoffman'
+    'CRAFT_ENVIRONMENT' => 'dev'
+    'CRAFT_SECURITY_KEY' => '••••••••••••••••••••••••••••••••'
+    'CRAFT_DB_DRIVER' => 'mysql'
+    'CRAFT_DB_SERVER' => '127.0.0.1'
+    'CRAFT_DB_PORT' => '3306'
+    'CRAFT_DB_DATABASE' => 'db_hoffman'
+    'CRAFT_DB_USER' => 'root'
+    'CRAFT_DB_PASSWORD' => '••••'
+    'CRAFT_DB_SCHEMA' => 'public'
+    'CRAFT_DB_TABLE_PREFIX' => ''
+    'DEV_MODE' => 'true'
+    'ALLOW_ADMIN_CHANGES' => 'true'
+    'DISALLOW_ROBOTS' => 'true'
+    'PRIMARY_SITE_URL' => 'https://hoffman.local/web'
+]
+
+$_SESSION = [
+    'defff4d1e78e759992a267d7b4901e62__flash' => []
+    '2da3426bc4860615af29ef5605940b2e__token' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    '2da3426bc4860615af29ef5605940b2e__id' => 1
+    '__authKey' => '••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••'
+    '2da3426bc4860615af29ef5605940b2e__expire' => 1671249928
+    '__duration' => 3600
+] {"userId":1} 

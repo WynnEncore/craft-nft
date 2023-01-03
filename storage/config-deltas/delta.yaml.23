@@ -1,0 +1,16 @@
+dateApplied: '2023-01-02 10:22:12'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1672682652
+        to: 1672683732
+  -
+    added:
+      fs.nfts.hasUrls: true
+      fs.nfts.name: nfts
+      fs.nfts.settings.path: '@webroot/craft-assets/nfts'
+      fs.nfts.type: craft\fs\Local
+      fs.nfts.url: '@web/craft-assets/nfts'
+    message: 'Save the “nfts” filesystem'
