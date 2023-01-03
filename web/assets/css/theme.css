@@ -1,13 +1,8 @@
 :root {
-    /* Neutral colorways */
-  
     --main-BG: hsl(217, 54%, 11%);
     --card-BG: hsl(216, 50%, 16%);
     --line: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
-  
-    /* Primary colorways */
-  
     --soft-blue: hsl(215, 51%, 70%);
     --cyan: hsl(178, 100%, 50%);
   }
@@ -38,7 +33,6 @@
   
   
   /* Header Content */
-  
   .container {
     width: 360px;
     height: 620px;
@@ -48,7 +42,7 @@
     border-radius: 20px;
   }
   
-  .img-header {
+  .nft-image {
     width: 310px;
     height: 310px;
    
@@ -58,7 +52,7 @@
     position: absolute;
   }
   
-  .img-header::after {
+  .nft-image::after {
     content: "";
     display: block;
     width: 100%;
@@ -70,20 +64,18 @@
     transition: 0.3s ease-in-out;
   }
   
-  .img-header:hover::after {
+  .nft-image:hover::after {
     cursor: pointer;
     background-color: hsla(178, 100%, 50%, .6);
     border-radius: 20px;
     opacity: 1;
   }
   
-  /* Global styles for text information */
-  
   .content {
     padding-top: 360px
   }
   
-  .content, .creator {
+  .content, .author {
     margin-left: 25px;
   }
   
@@ -96,7 +88,7 @@
     text-decoration: none;
   }
   
-  /* Name, description, price and time remaining */
+  /* NFT details */
   
   .nft-title {
     font-weight: 600;
@@ -137,33 +129,35 @@
     color: var(--soft-blue);
   }
   
-  /* Footer Content */
+  /* Author information */
   
-  .creator {
+  .author {
     padding: 22.5px 0;
   }
   
-  .creator-img, .creator-name {
+  .author-img, .author-name {
     display: inline;
     vertical-align: middle;
   }
   
-  .creator-img {
+  .author-img {
     width: 35px;
     height: 35px;
     border: 2px solid white;
     border-radius: 50%;
   }
   
-  .creator-name {
+  .author-name {
     color: var(--soft-blue);
     margin-left: 13px;
   }
   
   span {
     color: var(--white);
-    transition: 0.3s ease-in-out;
+    transition: 0.4s ease-in-out;
   }
+
+  /* Most of the code has been designed mobile first */
   @media (min-width:768px) {
     main {
       display: flex;

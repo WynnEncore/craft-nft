@@ -1,9 +1,9 @@
 <div class="container">
-    <div class="img-header" style="background-image: url({{entry.nftImage.one().getUrl()}})"></div>
+    <div class="nft-image" style="background-image: url({{entry.nftImage.one().getUrl()}})"></div>
 
     <div class="content">
       <h2>
-        <a  class="nft-title" href="https://opensea.io/" target="_blank">
+        <a  class="nft-title" href="#" target="_blank">
         {{ entry.title }}
         </a>
       </h2>
@@ -19,14 +19,14 @@
         </div>
       </div>
     </div>
-    <footer class="creator">
+    <div class="author">
         {% if entry.author.photo %}
-            <img class="creator-img" src="{{ entry.author.photo.getUrl() }}" alt="{{ entry.author.friendlyName }}">
+            <img class="author-img" src="{{ entry.author.photo.getUrl() }}" alt="{{ entry.author.friendlyName }}">
         {% endif %}
-        <p class="creator-name">
+        <p class="author-name">
             Creation of <span>{{ entry.author.friendlyName }}</span>
         </p>
-    </footer>
+    </div>
     
 </div>
 

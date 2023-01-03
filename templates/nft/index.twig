@@ -2,7 +2,7 @@
 
 
 {% for entry in entries %}
-    {% if entry.salesEndDate >= today %}
+    {% if entry.salesEndDate|date('Y-m-d H:i') >= today %}
         {{ include('_components/nft_card')}}
     {% endif %}
 {% endfor %}
