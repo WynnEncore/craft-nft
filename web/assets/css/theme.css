@@ -33,7 +33,7 @@
   
   
   /* Header Content */
-  .container {
+  .nft-card {
     width: 360px;
     height: 620px;
     background-color: var(--card-BG);
@@ -71,11 +71,11 @@
     opacity: 1;
   }
   
-  .content {
+  .nft-details {
     padding-top: 360px
   }
   
-  .content, .author {
+  .nft-details, .author {
     margin-left: 25px;
   }
   
@@ -169,7 +169,7 @@
       text-align: center;
       margin: 20px 0;
     }
-    .container {
+    .nft-card {
       width: 360px;
       height: 620px;
       margin: 10px;
